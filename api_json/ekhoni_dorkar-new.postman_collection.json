@@ -1,0 +1,716 @@
+{
+	"id": "ecde9e5f-3026-e66c-89f0-17283ba6e027",
+	"name": "ekhoni_dorkar new",
+	"description": "",
+	"order": [
+		"93d40209-ff02-e91b-c537-66e0d67a30ea",
+		"95db3f0a-bf67-b5f5-a395-65bc0d6c476f",
+		"a5f4fa1e-eb5e-7bb7-a2ff-36b3e979dc1b",
+		"dc3a1597-9c67-3d83-5a94-45e27a5c526d",
+		"82c24ad1-b178-0310-6440-4251a57793d1",
+		"73722481-051f-91a6-18ef-df685ba14153",
+		"83ee8451-37cb-3b26-ff10-10e3f221c711",
+		"83dfe216-54f6-96e8-b4ce-da932847678a",
+		"d0fd29aa-12a8-c7e4-8402-8af6ab720ae7",
+		"c18a5519-d22c-d8f2-f446-5266a68645f5",
+		"0eac0659-ed6e-eec2-b8eb-741fd238ad65",
+		"69107cf1-1f79-64d2-34b5-d39133f4089f",
+		"88cd24cd-2b69-0829-9ae0-f4114f327f65",
+		"b4e43f85-8db1-85de-59c5-301c23d38991",
+		"4375f3b9-c0eb-408b-d764-a10d6c11ce9a",
+		"522724b8-d467-f81f-7ea0-8a80fd56b6cc",
+		"d03eef6d-662a-f70c-12db-e805c94b9ca5"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1594696996327,
+	"owner": "811752",
+	"public": false,
+	"requests": [
+		{
+			"id": "0eac0659-ed6e-eec2-b8eb-741fd238ad65",
+			"headers": "Authorization: Bearer  12|nqKxLQaJu0KdYS6tygh9e98vNYF3dOJE0bsmBHnYRMn2o7chluUZakvopDwjyiBjdiOuowRVLLO0m4Ri\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer  12|nqKxLQaJu0KdYS6tygh9e98vNYF3dOJE0bsmBHnYRMn2o7chluUZakvopDwjyiBjdiOuowRVLLO0m4Ri",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}delivery-charges/get/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1598385951635,
+			"name": "delivery charges get",
+			"description": "",
+			"collectionId": "ecde9e5f-3026-e66c-89f0-17283ba6e027",
+			"responses": []
+		},
+		{
+			"id": "4375f3b9-c0eb-408b-d764-a10d6c11ce9a",
+			"headers": "Accept: application/json\nAuthorization: Bearer  13|EUB5cX7kUgeuCu1CdF0bYpHwjkufvCjJL7b6bziPKWto1E0nb8rOEBT0oDpVExlJlxwdFKeqyZOTwPzQ\n//Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer  13|EUB5cX7kUgeuCu1CdF0bYpHwjkufvCjJL7b6bziPKWto1E0nb8rOEBT0oDpVExlJlxwdFKeqyZOTwPzQ",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "{{url}}address/delete/3",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1599415741560,
+			"name": "address delete",
+			"description": "",
+			"collectionId": "ecde9e5f-3026-e66c-89f0-17283ba6e027",
+			"responses": []
+		},
+		{
+			"id": "522724b8-d467-f81f-7ea0-8a80fd56b6cc",
+			"headers": "Accept: application/json\nAuthorization: Bearer  944|6OZehLAN2uIQk06C0gvWr9aZCThfsKVdzVgL3Tgp\nContent-Type: application/json\n//WWW-Authenticate: <type> realm=<realm>\n//test: 123\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer  944|6OZehLAN2uIQk06C0gvWr9aZCThfsKVdzVgL3Tgp",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "WWW-Authenticate",
+					"value": "<type> realm=<realm>",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "test",
+					"value": "123",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "{{url}}user",
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmVraG9uaWRvcmthci5jb21cL2FwaVwvbG9naW4iLCJpYXQiOjE1OTk3Mjg0NDQsImV4cCI6MTU5OTczMjA0NCwibmJmIjoxNTk5NzI4NDQ0LCJqdGkiOiJXdmQ1NXBjYlhRM1BYOG5BIiwic3ViIjoyNCwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.SUxr4pzvSSfQmI-cCq4uzwTx7IAS64YRUBUmIA_ATRk",
+					"equals": true,
+					"description": "",
+					"enabled": false
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1602311291164,
+			"name": "get user info",
+			"description": "",
+			"collectionId": "ecde9e5f-3026-e66c-89f0-17283ba6e027",
+			"responses": []
+		},
+		{
+			"id": "69107cf1-1f79-64d2-34b5-d39133f4089f",
+			"headers": "Accept: application/json\nAuthorization: Bearer  12|nqKxLQaJu0KdYS6tygh9e98vNYF3dOJE0bsmBHnYRMn2o7chluUZakvopDwjyiBjdiOuowRVLLO0m4Ri\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer  12|nqKxLQaJu0KdYS6tygh9e98vNYF3dOJE0bsmBHnYRMn2o7chluUZakvopDwjyiBjdiOuowRVLLO0m4Ri",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}profile/change-email",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "email",
+					"value": "mr12129567@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1598118745973,
+			"name": "change-email",
+			"description": "",
+			"collectionId": "ecde9e5f-3026-e66c-89f0-17283ba6e027",
+			"responses": []
+		},
+		{
+			"id": "73722481-051f-91a6-18ef-df685ba14153",
+			"headers": "Authorization: Bearer 23|myKJSSsMwrIktljLfdwFQhvTldTmB1Uk3UX9OjsYJD5pCu7v1cco85H3278cOJYeNORfePOPUQonI4er\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer 23|myKJSSsMwrIktljLfdwFQhvTldTmB1Uk3UX9OjsYJD5pCu7v1cco85H3278cOJYeNORfePOPUQonI4er",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}coupon/A20",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1598385540666,
+			"name": "{{url}}coupon/A2",
+			"description": "",
+			"collectionId": "ecde9e5f-3026-e66c-89f0-17283ba6e027",
+			"responses": []
+		},
+		{
+			"id": "82c24ad1-b178-0310-6440-4251a57793d1",
+			"headers": "",
+			"headerData": [],
+			"url": "{{url}}search/food",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "ecde9e5f-3026-e66c-89f0-17283ba6e027",
+			"data": null,
+			"dataMode": "params",
+			"name": "{{url}}search/food",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1595430717744,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "83dfe216-54f6-96e8-b4ce-da932847678a",
+			"headers": "",
+			"headerData": [],
+			"url": "{{url}}password-reset-token",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "ecde9e5f-3026-e66c-89f0-17283ba6e027",
+			"data": [
+				{
+					"key": "email",
+					"value": "admin@admin.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "{{url}}password-reset-token",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1597463896544,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "83ee8451-37cb-3b26-ff10-10e3f221c711",
+			"headers": "Authorization: Bearer 22|MiCXt9D0oKqucQRSPYNL4huAyLrzXTVmMS2vRPGosS6bKfHOwnN9EMOKGxiLFCseFft0KbmLmuv6qGxU\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer 22|MiCXt9D0oKqucQRSPYNL4huAyLrzXTVmMS2vRPGosS6bKfHOwnN9EMOKGxiLFCseFft0KbmLmuv6qGxU",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}change-password",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "ecde9e5f-3026-e66c-89f0-17283ba6e027",
+			"data": [
+				{
+					"key": "password",
+					"value": "123456789",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "new_password",
+					"value": "12345678",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "{{url}}change-password",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1596146357336,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "88cd24cd-2b69-0829-9ae0-f4114f327f65",
+			"headers": "Accept: application/json\nAuthorization: Bearer  12|nqKxLQaJu0KdYS6tygh9e98vNYF3dOJE0bsmBHnYRMn2o7chluUZakvopDwjyiBjdiOuowRVLLO0m4Ri\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer  12|nqKxLQaJu0KdYS6tygh9e98vNYF3dOJE0bsmBHnYRMn2o7chluUZakvopDwjyiBjdiOuowRVLLO0m4Ri",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}profile/change-phone",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "phone",
+					"value": "01926261878",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1598385551141,
+			"name": "change-phone",
+			"description": "",
+			"collectionId": "ecde9e5f-3026-e66c-89f0-17283ba6e027",
+			"responses": []
+		},
+		{
+			"id": "93d40209-ff02-e91b-c537-66e0d67a30ea",
+			"headers": "Accept: application/json\n//Authorization: Bearer  2|MyZfKdeM6fQCb37iCIdyZoKdIT36TCYPZIBb99RtmrABtKVkkM9tEJ1Y9KXXMXLUQ3OENBFjeOB6H0d0\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer  2|MyZfKdeM6fQCb37iCIdyZoKdIT36TCYPZIBb99RtmrABtKVkkM9tEJ1Y9KXXMXLUQ3OENBFjeOB6H0d0",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}sliders",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1594697073652,
+			"name": "sliders get",
+			"description": "",
+			"collectionId": "ecde9e5f-3026-e66c-89f0-17283ba6e027",
+			"responses": []
+		},
+		{
+			"id": "95db3f0a-bf67-b5f5-a395-65bc0d6c476f",
+			"headers": "Accept: application/json\n//Authorization: Bearer  2|MyZfKdeM6fQCb37iCIdyZoKdIT36TCYPZIBb99RtmrABtKVkkM9tEJ1Y9KXXMXLUQ3OENBFjeOB6H0d0\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer  2|MyZfKdeM6fQCb37iCIdyZoKdIT36TCYPZIBb99RtmrABtKVkkM9tEJ1Y9KXXMXLUQ3OENBFjeOB6H0d0",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}pages",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1598969816319,
+			"name": "pages",
+			"description": "",
+			"collectionId": "ecde9e5f-3026-e66c-89f0-17283ba6e027",
+			"responses": []
+		},
+		{
+			"id": "a5f4fa1e-eb5e-7bb7-a2ff-36b3e979dc1b",
+			"headers": "Accept: application/json\n//Authorization: Bearer  2|MyZfKdeM6fQCb37iCIdyZoKdIT36TCYPZIBb99RtmrABtKVkkM9tEJ1Y9KXXMXLUQ3OENBFjeOB6H0d0\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer  2|MyZfKdeM6fQCb37iCIdyZoKdIT36TCYPZIBb99RtmrABtKVkkM9tEJ1Y9KXXMXLUQ3OENBFjeOB6H0d0",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}pages/about-Us",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1599670938929,
+			"name": "single page",
+			"description": "",
+			"collectionId": "ecde9e5f-3026-e66c-89f0-17283ba6e027",
+			"responses": []
+		},
+		{
+			"id": "b4e43f85-8db1-85de-59c5-301c23d38991",
+			"headers": "Accept: application/json\nAuthorization: Bearer  13|EUB5cX7kUgeuCu1CdF0bYpHwjkufvCjJL7b6bziPKWto1E0nb8rOEBT0oDpVExlJlxwdFKeqyZOTwPzQ\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer  13|EUB5cX7kUgeuCu1CdF0bYpHwjkufvCjJL7b6bziPKWto1E0nb8rOEBT0oDpVExlJlxwdFKeqyZOTwPzQ",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}wallet",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1599415752082,
+			"name": "wallet-get",
+			"description": "",
+			"collectionId": "ecde9e5f-3026-e66c-89f0-17283ba6e027",
+			"responses": []
+		},
+		{
+			"id": "c18a5519-d22c-d8f2-f446-5266a68645f5",
+			"headers": "Authorization: Bearer  12|nqKxLQaJu0KdYS6tygh9e98vNYF3dOJE0bsmBHnYRMn2o7chluUZakvopDwjyiBjdiOuowRVLLO0m4Ri\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer  12|nqKxLQaJu0KdYS6tygh9e98vNYF3dOJE0bsmBHnYRMn2o7chluUZakvopDwjyiBjdiOuowRVLLO0m4Ri",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}orders/status/63",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1598195773176,
+			"name": "order status",
+			"description": "",
+			"collectionId": "ecde9e5f-3026-e66c-89f0-17283ba6e027",
+			"responses": []
+		},
+		{
+			"id": "d03eef6d-662a-f70c-12db-e805c94b9ca5",
+			"headers": "",
+			"headerData": [],
+			"url": "{{url}}check-otp",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "phone",
+					"value": "01926261878",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "otp",
+					"value": "bangoshop2878",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1599671429922,
+			"name": "check OTP",
+			"description": "",
+			"collectionId": "ecde9e5f-3026-e66c-89f0-17283ba6e027",
+			"responses": []
+		},
+		{
+			"id": "d0fd29aa-12a8-c7e4-8402-8af6ab720ae7",
+			"headers": "",
+			"headerData": [],
+			"url": "{{url}}product-request",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "ecde9e5f-3026-e66c-89f0-17283ba6e027",
+			"data": [
+				{
+					"key": "title",
+					"value": "Kacha morich ",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "kacha morich lagbe",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "quantity",
+					"value": "1 kg",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "phone",
+					"value": "01301348316",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "address",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "params",
+			"name": "product-Request",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1597488317499,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "dc3a1597-9c67-3d83-5a94-45e27a5c526d",
+			"headers": "Accept: application/json\n//Authorization: Bearer  2|MyZfKdeM6fQCb37iCIdyZoKdIT36TCYPZIBb99RtmrABtKVkkM9tEJ1Y9KXXMXLUQ3OENBFjeOB6H0d0\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer  2|MyZfKdeM6fQCb37iCIdyZoKdIT36TCYPZIBb99RtmrABtKVkkM9tEJ1Y9KXXMXLUQ3OENBFjeOB6H0d0",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}bundles",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1599227750124,
+			"name": "bundles",
+			"description": "",
+			"collectionId": "ecde9e5f-3026-e66c-89f0-17283ba6e027",
+			"responses": []
+		}
+	]
+}

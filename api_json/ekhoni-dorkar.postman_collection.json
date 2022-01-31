@@ -1,0 +1,780 @@
+{
+	"id": "08822175-8458-9a12-73f3-37b822035cdb",
+	"name": "bangoshop",
+	"description": "",
+	"order": [
+		"ca364111-b737-3a6f-1520-c818f8cdc53f",
+		"e09831c1-06c4-bf79-5d9c-c4cf8bd41a97",
+		"fc45057d-6772-6ce1-1ba6-0a2e21c30ec2",
+		"7ef34615-707f-8c8d-4461-459b7407ad62",
+		"98260fc7-5edb-52f0-2092-0410b03a06e1",
+		"b50ae46c-a13a-1f74-5904-5145a0c008d4",
+		"b0dfb636-8efb-8955-5c03-07c359442509",
+		"dec97507-af14-d439-8b05-894b1bd0843b",
+		"4d33536e-8311-8fd5-b3bb-44ee042acdc4",
+		"efca66aa-06b4-7d24-6de3-48cffe516bd5",
+		"7fff7690-14bd-ede8-1a2d-79af31ee7e29",
+		"14a4f9ab-7f1e-84c4-5ac2-0b0c79d780c6",
+		"63fc5c42-81ed-a3a2-6b4e-193713b97eb4",
+		"92796fce-9dfb-99c8-9053-58d00f8d4564",
+		"46d8885f-0d24-b508-8efe-3566c7b1647c",
+		"8d6022b7-5d6b-691a-a2bd-e589616b9c40",
+		"d0a3596b-b618-1a4b-931d-5a10a49c3c8d",
+		"b2efd0ea-738e-6af3-01cc-dc71452925d5",
+		"f63547a0-d701-41c9-53bd-60fbd3b167da"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1593288550081,
+	"owner": "811752",
+	"public": false,
+	"requests": [
+		{
+			"id": "14a4f9ab-7f1e-84c4-5ac2-0b0c79d780c6",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:81/ed/public/api/products/latest",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1593564879591,
+			"name": "latest  product",
+			"description": "",
+			"collectionId": "08822175-8458-9a12-73f3-37b822035cdb",
+			"responses": []
+		},
+		{
+			"id": "46d8885f-0d24-b508-8efe-3566c7b1647c",
+			"headers": "Accept: application/json\n//Authorization: Bearer  2|MyZfKdeM6fQCb37iCIdyZoKdIT36TCYPZIBb99RtmrABtKVkkM9tEJ1Y9KXXMXLUQ3OENBFjeOB6H0d0\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer  2|MyZfKdeM6fQCb37iCIdyZoKdIT36TCYPZIBb99RtmrABtKVkkM9tEJ1Y9KXXMXLUQ3OENBFjeOB6H0d0",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}categories",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1599288178783,
+			"name": "category get",
+			"description": "",
+			"collectionId": "08822175-8458-9a12-73f3-37b822035cdb",
+			"responses": []
+		},
+		{
+			"id": "4d33536e-8311-8fd5-b3bb-44ee042acdc4",
+			"headers": "",
+			"headerData": [],
+			"url": "{{url}}products/search/ফুড আইটেম",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1595758737504,
+			"name": "products search",
+			"description": "",
+			"collectionId": "08822175-8458-9a12-73f3-37b822035cdb",
+			"responses": []
+		},
+		{
+			"id": "63fc5c42-81ed-a3a2-6b4e-193713b97eb4",
+			"headers": "Accept: application/json\nAuthorization: Bearer  13|EUB5cX7kUgeuCu1CdF0bYpHwjkufvCjJL7b6bziPKWto1E0nb8rOEBT0oDpVExlJlxwdFKeqyZOTwPzQ\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer  13|EUB5cX7kUgeuCu1CdF0bYpHwjkufvCjJL7b6bziPKWto1E0nb8rOEBT0oDpVExlJlxwdFKeqyZOTwPzQ",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:81/ed/public/api/profile/get",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1599295603691,
+			"name": "profile get",
+			"description": "",
+			"collectionId": "08822175-8458-9a12-73f3-37b822035cdb",
+			"responses": []
+		},
+		{
+			"id": "7ef34615-707f-8c8d-4461-459b7407ad62",
+			"headers": "Accept: application/json\nAuthorization: Bearer 11|23fMsgKCywqgDB6RL4P05YwmBMC3c67oiNO4USBznWX2CvfsvC8e4SxZ8yKHFXgOr8mr42mNK5oZ9LGg\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer 11|23fMsgKCywqgDB6RL4P05YwmBMC3c67oiNO4USBznWX2CvfsvC8e4SxZ8yKHFXgOr8mr42mNK5oZ9LGg",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}orders/save",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "order",
+					"value": "{\n\t\"user_id\":1,\n\t\"payment_method_id\":1,\n          \"address_id\":3,\n          \"amount\":330,\n           \"coupon_id\":1,\n           \n\t\"orderItems\": [\n\t\t{\n\t\t\t\"product_id\":4,\n\t\t\t\"name\": \"CHECK PRINT SHIRT\",\n\t\t\t\"quantity\":2,\n\t\t\t\"price\": 110,\n                         \"is_bundle\":1\n\t\t},\n\t{\n\t\t\t\"product_id\":2,\n\t\t\t\"name\": \"CHECK PRINT SHIRT\",\n\t\t\t\"quantity\":1,\n\t\t\t\"price\": 110\n\t\t},\n\t\t{\n\t\t\t\"product_id\":3,\n\t\t\t\"name\": \"CHECK PRINT SHIRT\",\n\t\t\t\"quantity\":1,\n\t\t\t\"price\": 110\n\t\t}\n\t\t\n\t]\n}",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1599412521635,
+			"name": "order save",
+			"description": "",
+			"collectionId": "08822175-8458-9a12-73f3-37b822035cdb",
+			"responses": []
+		},
+		{
+			"id": "7fff7690-14bd-ede8-1a2d-79af31ee7e29",
+			"headers": "",
+			"headerData": [],
+			"url": "{{url}}brands/uniliver/products",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1599412510189,
+			"name": "product get by brand",
+			"description": "",
+			"collectionId": "08822175-8458-9a12-73f3-37b822035cdb",
+			"responses": []
+		},
+		{
+			"id": "8d6022b7-5d6b-691a-a2bd-e589616b9c40",
+			"headers": "Accept: application/json\n//Authorization: Bearer  2|MyZfKdeM6fQCb37iCIdyZoKdIT36TCYPZIBb99RtmrABtKVkkM9tEJ1Y9KXXMXLUQ3OENBFjeOB6H0d0\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer  2|MyZfKdeM6fQCb37iCIdyZoKdIT36TCYPZIBb99RtmrABtKVkkM9tEJ1Y9KXXMXLUQ3OENBFjeOB6H0d0",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}brands",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1594392139347,
+			"name": "brands get",
+			"description": "",
+			"collectionId": "08822175-8458-9a12-73f3-37b822035cdb",
+			"responses": []
+		},
+		{
+			"id": "92796fce-9dfb-99c8-9053-58d00f8d4564",
+			"headers": "Accept: application/json\nAuthorization: Bearer  2|MyZfKdeM6fQCb37iCIdyZoKdIT36TCYPZIBb99RtmrABtKVkkM9tEJ1Y9KXXMXLUQ3OENBFjeOB6H0d0\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer  2|MyZfKdeM6fQCb37iCIdyZoKdIT36TCYPZIBb99RtmrABtKVkkM9tEJ1Y9KXXMXLUQ3OENBFjeOB6H0d0",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:81/ed/public/api/products/detail/Food-item-17",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1602744960251,
+			"name": "get product detail",
+			"description": "",
+			"collectionId": "08822175-8458-9a12-73f3-37b822035cdb",
+			"responses": []
+		},
+		{
+			"id": "98260fc7-5edb-52f0-2092-0410b03a06e1",
+			"headers": "Accept: application/json\nAuthorization: Bearer  13|EUB5cX7kUgeuCu1CdF0bYpHwjkufvCjJL7b6bziPKWto1E0nb8rOEBT0oDpVExlJlxwdFKeqyZOTwPzQ\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer  13|EUB5cX7kUgeuCu1CdF0bYpHwjkufvCjJL7b6bziPKWto1E0nb8rOEBT0oDpVExlJlxwdFKeqyZOTwPzQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:81/ed/public/api/address/save",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "address",
+					"value": "Sector 13, Uttara,Dhaka 1230",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1599412518637,
+			"name": "address save",
+			"description": "",
+			"collectionId": "08822175-8458-9a12-73f3-37b822035cdb",
+			"responses": []
+		},
+		{
+			"id": "b0dfb636-8efb-8955-5c03-07c359442509",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:81/ed/public/api/products/top-rated",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "08822175-8458-9a12-73f3-37b822035cdb",
+			"data": null,
+			"dataMode": "params",
+			"name": "top rated product",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1593288649984,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "b2efd0ea-738e-6af3-01cc-dc71452925d5",
+			"headers": "Accept: application/json\nAuthorization: Bearer  6|YQESuNY84eD850snxszYZGgbnRvUm0Vu9Gir6j21b9BqKJ3mWJcEcw2XXsHKQZH16mvgwWaXfsNWu7L3\n//Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer  6|YQESuNY84eD850snxszYZGgbnRvUm0Vu9Gir6j21b9BqKJ3mWJcEcw2XXsHKQZH16mvgwWaXfsNWu7L3",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "{{url}}orders/by-user",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1595758547128,
+			"name": "ordre get by user",
+			"description": "",
+			"collectionId": "08822175-8458-9a12-73f3-37b822035cdb",
+			"responses": []
+		},
+		{
+			"id": "b50ae46c-a13a-1f74-5904-5145a0c008d4",
+			"headers": "Accept: application/json\nAuthorization: Bearer  13|s4lraWMCW7viXWKEoZDBck4VXZ3gHXctoDGzYcHVQE5e1NmhJ4iiGxvNuwzojxboRAYGrKOXhLvF7beb\n//Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer  13|s4lraWMCW7viXWKEoZDBck4VXZ3gHXctoDGzYcHVQE5e1NmhJ4iiGxvNuwzojxboRAYGrKOXhLvF7beb",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "{{url}}profile/save",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "first_name",
+					"value": "Reduan",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "last_name",
+					"value": "Rafi",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "blood_group",
+					"value": "B+",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "profile_image",
+					"value": "",
+					"type": "file",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "date_of_birth",
+					"value": "25-10-1992",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1594262873142,
+			"name": "profile save",
+			"description": "",
+			"collectionId": "08822175-8458-9a12-73f3-37b822035cdb",
+			"responses": []
+		},
+		{
+			"id": "ca364111-b737-3a6f-1520-c818f8cdc53f",
+			"headers": "",
+			"headerData": [],
+			"url": "{{url}}login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "phone",
+					"value": "01301348316",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "12345678",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1595400427093,
+			"name": "login",
+			"description": "",
+			"collectionId": "08822175-8458-9a12-73f3-37b822035cdb",
+			"responses": []
+		},
+		{
+			"id": "d0a3596b-b618-1a4b-931d-5a10a49c3c8d",
+			"headers": "Accept: application/json\nAuthorization: Bearer  13|EUB5cX7kUgeuCu1CdF0bYpHwjkufvCjJL7b6bziPKWto1E0nb8rOEBT0oDpVExlJlxwdFKeqyZOTwPzQ\n//Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer  13|EUB5cX7kUgeuCu1CdF0bYpHwjkufvCjJL7b6bziPKWto1E0nb8rOEBT0oDpVExlJlxwdFKeqyZOTwPzQ",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost:81/ed/public/api/address/get",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1599412515499,
+			"name": "address get",
+			"description": "",
+			"collectionId": "08822175-8458-9a12-73f3-37b822035cdb",
+			"responses": []
+		},
+		{
+			"id": "dec97507-af14-d439-8b05-894b1bd0843b",
+			"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmVraG9uaWRvcmthci5jb21cL2FwaVwvbG9naW4iLCJpYXQiOjE1OTk3NjU4NDksImV4cCI6MTU5OTc2OTQ0OSwibmJmIjoxNTk5NzY1ODQ5LCJqdGkiOiJKSFNNa2l2UEExN2pIZURCIiwic3ViIjoyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.ilZaZykMwOxJYPUc4_cSKxg2i2elaQ_nJIMo6XJywDA\nContent-Type: application/json\n//WWW-Authenticate: <type> realm=<realm>\n//test: 123\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmVraG9uaWRvcmthci5jb21cL2FwaVwvbG9naW4iLCJpYXQiOjE1OTk3NjU4NDksImV4cCI6MTU5OTc2OTQ0OSwibmJmIjoxNTk5NzY1ODQ5LCJqdGkiOiJKSFNNa2l2UEExN2pIZURCIiwic3ViIjoyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.ilZaZykMwOxJYPUc4_cSKxg2i2elaQ_nJIMo6XJywDA",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "WWW-Authenticate",
+					"value": "<type> realm=<realm>",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "test",
+					"value": "123",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "{{url}}top-types/2",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1601102374260,
+			"name": "products",
+			"description": "",
+			"collectionId": "08822175-8458-9a12-73f3-37b822035cdb",
+			"responses": []
+		},
+		{
+			"id": "e09831c1-06c4-bf79-5d9c-c4cf8bd41a97",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nAuthorization: 21|zBTraN7kIg7BDYpVsAbrz7VArJXj9QIZPk4lef5A7LS6ePFc3rumgTs1yStukzeY8XVU12aJWZVw5zXq\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "21|zBTraN7kIg7BDYpVsAbrz7VArJXj9QIZPk4lef5A7LS6ePFc3rumgTs1yStukzeY8XVU12aJWZVw5zXq",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}logout",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "phone",
+					"value": "01301348316",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "password",
+					"value": "12345678",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "token",
+					"value": "19|F865mVKlwgqpqzCGfjovqCQcqpIX2hTWJrT3KzICdT7YcMaKVsimsqnNV1ZVweoCZn4jFItSkBcBINnq",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1596145598092,
+			"name": "logout",
+			"description": "",
+			"collectionId": "08822175-8458-9a12-73f3-37b822035cdb",
+			"responses": []
+		},
+		{
+			"id": "efca66aa-06b4-7d24-6de3-48cffe516bd5",
+			"headers": "",
+			"headerData": [],
+			"url": "{{url}}categories/grocery/products",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1599415746139,
+			"name": "product get by category",
+			"description": "",
+			"collectionId": "08822175-8458-9a12-73f3-37b822035cdb",
+			"responses": []
+		},
+		{
+			"id": "f63547a0-d701-41c9-53bd-60fbd3b167da",
+			"headers": "",
+			"headerData": [],
+			"url": "{{url}}top-types",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1594646718584,
+			"name": "{{url}}top-types",
+			"description": "",
+			"collectionId": "08822175-8458-9a12-73f3-37b822035cdb",
+			"responses": []
+		},
+		{
+			"id": "fc45057d-6772-6ce1-1ba6-0a2e21c30ec2",
+			"headers": "Accept: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}register",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "Reduan Rafie",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "phone",
+					"value": "01926261878",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "12345678",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password_confirmation",
+					"value": "12345678",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1599671426874,
+			"name": "registration",
+			"description": "",
+			"collectionId": "08822175-8458-9a12-73f3-37b822035cdb",
+			"responses": []
+		}
+	]
+}

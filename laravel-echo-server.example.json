@@ -1,0 +1,41 @@
+{
+    "authHost": "https://api.edorkar.test",
+    "authEndpoint": "/broadcasting/auth",
+    "clients": [
+        {
+            "appId": "c5ceb1c72ae2e0a1",
+            "key": "36dd2e5f89e425a928bd1c37936323a9"
+        }
+    ],
+    "database": "redis",
+    "databaseConfig": {
+        "redis": {
+            "port": "6379",
+            "host": "localhost",
+            "keyPrefix": "my-redis-prefix"
+        },
+        "sqlite": {
+            "databasePath": "/database/laravel-echo-server.sqlite"
+        }
+    },
+    "devMode": true,
+    "host": null,
+    "port": "6002",
+    "protocol": "https",
+    "socketio": {},
+    "secureOptions": 67108864,
+    "sslCertPath": "D:\\website_development\\laragon\\etc\\ssl\\laragon.crt",
+    "sslKeyPath": "D:\\website_development\\laragon\\etc\\ssl\\laragon.key",
+    "sslCertChainPath": "",
+    "sslPassphrase": "",
+    "subscribers": {
+        "http": true,
+        "redis": true
+    },
+    "apiOriginAllow": {
+        "allowCors": true,
+        "allowOrigin": "https://127.0.0.1",
+        "allowMethods": "GET, POST",
+        "allowHeaders": "Origin, Content-Type, X-Auth-Token, X-Requested-With, Accept, Authorization, X-CSRF-TOKEN, X-Socket-Id"
+    }
+}

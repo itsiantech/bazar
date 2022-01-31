@@ -1,0 +1,311 @@
+{
+	"id": "fbdb0181-e0af-a19e-2427-b1b1c6ae4228",
+	"name": "ed_new",
+	"description": "",
+	"order": [
+		"c850cd08-7dd8-c9a7-f384-03b0d2bacc8e",
+		"dd382ef9-1f6c-3df5-e99f-63960eff512e",
+		"51c9571f-ad2b-6580-59fc-e92d5ccec8ad",
+		"5fc215ff-2762-aeb7-097d-ca3aad3c9caa",
+		"c3ecc246-8b17-84cf-0a95-5a17649a56a7",
+		"6d4feeab-d54e-3677-cb15-70cf0a3905f9",
+		"a328fced-f051-90ae-4a78-38bdf12697c0",
+		"e499c4d7-5d8e-c504-ccb4-c21ba0ec69f1"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1601103346216,
+	"owner": "811752",
+	"public": false,
+	"requests": [
+		{
+			"id": "51c9571f-ad2b-6580-59fc-e92d5ccec8ad",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:81/ed/public/api/check-otp",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "fbdb0181-e0af-a19e-2427-b1b1c6ae4228",
+			"data": [
+				{
+					"key": "phone",
+					"value": "01926261878",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "otp",
+					"value": "ED9010",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"dataMode": "params",
+			"name": "http://localhost:81/ed/public/api/check-otp",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1601104631573,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "5fc215ff-2762-aeb7-097d-ca3aad3c9caa",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:81/ed/public/api/forget-password",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "fbdb0181-e0af-a19e-2427-b1b1c6ae4228",
+			"data": [
+				{
+					"key": "phone",
+					"value": "01926261878",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "http://localhost:81/ed/public/api/forget-password",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1601104638803,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "6d4feeab-d54e-3677-cb15-70cf0a3905f9",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmVraG9uaWRvcmthci5jb21cL2FwaVwvbG9naW4iLCJpYXQiOjE2MDA0OTE5NTEsImV4cCI6MTYwMDQ5NTU1MSwibmJmIjoxNjAwNDkxOTUxLCJqdGkiOiIySlhCRE1ndTIzOTdBSmQ2Iiwic3ViIjoyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.l1kH9fueElMwSDsop5lUavLYj9aYTYLvKEnORF_Hcq4\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmVraG9uaWRvcmthci5jb21cL2FwaVwvbG9naW4iLCJpYXQiOjE2MDA0OTE5NTEsImV4cCI6MTYwMDQ5NTU1MSwibmJmIjoxNjAwNDkxOTUxLCJqdGkiOiIySlhCRE1ndTIzOTdBSmQ2Iiwic3ViIjoyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.l1kH9fueElMwSDsop5lUavLYj9aYTYLvKEnORF_Hcq4",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}wish-list/get",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1601102366116,
+			"name": "wish-list/get",
+			"description": "",
+			"collectionId": "fbdb0181-e0af-a19e-2427-b1b1c6ae4228",
+			"responses": []
+		},
+		{
+			"id": "a328fced-f051-90ae-4a78-38bdf12697c0",
+			"headers": "",
+			"headerData": [],
+			"url": "http://ed.ekjog.com/api/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "fbdb0181-e0af-a19e-2427-b1b1c6ae4228",
+			"data": [
+				{
+					"key": "phone",
+					"value": "01926261878",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "password",
+					"value": "12345678",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"dataMode": "params",
+			"name": "http://ed.ekjog.com/api/login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1602311300342,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "c3ecc246-8b17-84cf-0a95-5a17649a56a7",
+			"headers": "Authorization: Bearer 10|FTbJMDLY8UwYxkwGHx0pgNaIV40NTy2Xg2V7NM9pvbLAEWbGZFBQaMDCKlOmRtgB1rWzlPs2L2QDCj7s\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer 10|FTbJMDLY8UwYxkwGHx0pgNaIV40NTy2Xg2V7NM9pvbLAEWbGZFBQaMDCKlOmRtgB1rWzlPs2L2QDCj7s",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}wish-list/save",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "fbdb0181-e0af-a19e-2427-b1b1c6ae4228",
+			"data": [
+				{
+					"key": "product_id",
+					"value": "26",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "wish-list/save",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1597493936813,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "c850cd08-7dd8-c9a7-f384-03b0d2bacc8e",
+			"headers": "",
+			"headerData": [],
+			"url": "http://ed.ekjog.com/api/products/offers",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "fbdb0181-e0af-a19e-2427-b1b1c6ae4228",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://ed.ekjog.com/api/products/offers",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1601103350419,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "dd382ef9-1f6c-3df5-e99f-63960eff512e",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:81/ed/public/api/update-password",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "fbdb0181-e0af-a19e-2427-b1b1c6ae4228",
+			"data": [
+				{
+					"key": "phone",
+					"value": "01926261878",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "password",
+					"value": "123456789",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"dataMode": "params",
+			"name": "http://localhost:81/ed/public/api/update-password",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1601104625291,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "e499c4d7-5d8e-c504-ccb4-c21ba0ec69f1",
+			"headers": "Accept: application/json\nAuthorization: Bearer  940|Xb28uft6mSMz77cgNc9KZwijYvOArQFPvCZBKgGuTxUM98DbQSI4dOqSUKrw4wBhE7zBSCAQ7LdvtngJ\nContent-Type: application/json\n//WWW-Authenticate: <type> realm=<realm>\n//test: 123\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer  940|Xb28uft6mSMz77cgNc9KZwijYvOArQFPvCZBKgGuTxUM98DbQSI4dOqSUKrw4wBhE7zBSCAQ7LdvtngJ",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "WWW-Authenticate",
+					"value": "<type> realm=<realm>",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "test",
+					"value": "123",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://ed.ekjog.com/api/user",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "fbdb0181-e0af-a19e-2427-b1b1c6ae4228",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://ed.ekjog.com/api/user",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1602311309460,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
